@@ -61,7 +61,6 @@ form.addEventListener("submit", (event) => {
     })
     .then((data) => {
       user.textContent = 'Последний пользователь,который заполнил анкету: ' + data.name + ' ' + data.secondName
-      console.log(data)
     })
 });
 
